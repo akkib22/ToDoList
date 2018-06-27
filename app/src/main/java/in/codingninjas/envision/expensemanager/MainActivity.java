@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ListView listView = findViewById(R.id.listview);
 
 
-        for(int i = 0;i<20000;i++){
+        for(int i = 0;i<100000;i++){
 
             Expense expense = new Expense("Expense " + i,i*100);
             expenses.add(expense);
